@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Greeting from './components/Greeting';
+import BoxDesign from './components/BoxDesign';
 
 function App() {
   return (
