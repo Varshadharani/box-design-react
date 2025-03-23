@@ -20,11 +20,11 @@ const BoxDesign = () => {
     <div className="d-flex justify-content-center align-items-center vh-100 bg-light">
       <div style={containerStyle}>
         {/* Center Box */}
-        <div style={{ ...boxStyle, backgroundColor: '#dc3545', top: '50px', left: '50px',width: '90px',height: '65px',border: '10px solidrgb(0, 0, 0)' }}></div>
+        <div style={{ ...boxStyle, backgroundColor: '#dc3545', top: '50px', left: '50px',width: '90px',height: '65px',border: '1px solid#050a0e' }}></div>
 
         {/* Red Boxes */}
-        <div style={{ ...boxStyle, backgroundColor: '#dc3545', top: '20px', left: '20px',width: '60px', border: '10px solidrgb(0, 0, 0)' }}></div>
-        <div style={{ ...boxStyle, backgroundColor: '#dc3545', top: '95px', left: '20px',width: '60px',border: '10px solidrgb(0, 0, 0)' }}></div>
+        <div style={{ ...boxStyle, backgroundColor: '#dc3545', top: '20px', left: '20px',width: '60px', border: '1px solid#050a0e' }}></div>
+        <div style={{ ...boxStyle, backgroundColor: '#dc3545', top: '95px', left: '20px',width: '60px',border: '1px solid#050a0e' }}></div>
 
         {/* Black Boxes */}
         <div style={{ ...boxStyle, backgroundColor: '#000', top: '23px', left: '129px',width: '40px',height: '40px' }}></div>
